@@ -1,0 +1,247 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.495147410452972 -0.45704024174557895 -0.7388797326675423 4.33869289931595
+  position -0.6649498739173824 -4.113858187115733 12.531745683811394
+}
+DirectionalLight {
+  direction -1 1 -1
+  intensity 4
+  castShadows TRUE
+}
+Solid {
+  translation 0.38 0.53 -0.06
+  boundingObject Plane {
+    size 2.4 2.4
+  }
+}
+Background {
+  skyColor [
+    0.15 0.45 1
+  ]
+  backUrl [
+    "textures/backgrounds/nz.png"
+  ]
+  bottomUrl [
+    "textures/backgrounds/ny.png"
+  ]
+  frontUrl [
+    "textures/backgrounds/pz.png"
+  ]
+  leftUrl [
+    "textures/backgrounds/nx.png"
+  ]
+  rightUrl [
+    "textures/backgrounds/px.png"
+  ]
+  topUrl [
+    "textures/backgrounds/py.png"
+  ]
+}
+TexturedBackgroundLight {
+  luminosity 2
+}
+DEF EPUCK E-puck {
+  translation 0.382 0.54 -0.0404993
+  rotation -0.9982371544085195 0.05935111377213247 -0.00016985991046329383 1.1322778820028098e-06
+  controller "e-puck"
+  camera_width 640
+  camera_height 480
+}
+Robot {
+  translation 0.3735 0.533 -0.0804993
+  controller "my_supervisor"
+  supervisor TRUE
+}
+DEF BOX_45 Solid {
+  translation 1.36711 0.527107 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF BOX_0 Solid {
+  translation 0.38 -0.47 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+      castShadows FALSE
+    }
+  ]
+  name "solid(4)"
+}
+DEF BOX_90 Solid {
+  translation -0.6 0.53 0.01
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF BOX_135 Solid {
+  translation 0.41289 1.52711 0.01
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF BOX_180 Solid {
+  translation -1.38 0.04 0.16
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF BOX_225 Solid {
+  translation -1.38 0.22 0.16
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+      castShadows FALSE
+    }
+  ]
+  name "solid(5)"
+}
+DEF BOX_270 Solid {
+  translation -1.38 0.39 0.16
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+      castShadows FALSE
+    }
+  ]
+  name "solid(6)"
+}
+DEF BOX_315 Solid {
+  translation -1.38 0.56 0.16
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+      castShadows FALSE
+    }
+  ]
+  name "solid(7)"
+}
+DEF RedWaypoint Solid {
+  translation -0.167868 0.00727913 -0.05
+  rotation 0 0 1 0.785398
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 0.04 0.04
+      }
+    }
+  ]
+  name "solid(1)"
+}
+DEF YellowWaypoint Solid {
+  translation -0.00523333 0.184056 -0.05
+  rotation 0 0 1 0.785398
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 0.04 0.04
+      }
+    }
+  ]
+  name "solid(2)"
+}
+DEF PurpleWaypoint Solid {
+  translation 0.164472 0.367904 -0.05
+  rotation 0 0 1 0.785398
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 0.04 0.04
+      }
+      castShadows FALSE
+    }
+  ]
+  name "solid(3)"
+}
+CadShape {
+  url [
+    "../assets/Arena_to_be_scaled.obj"
+  ]
+  ccw FALSE
+}

@@ -1,0 +1,11 @@
+.DS_Store
+__MACOSX/
+Submission.zip
+private.pem
+public.pem
+evaluation_report.json
+match_results.json
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
