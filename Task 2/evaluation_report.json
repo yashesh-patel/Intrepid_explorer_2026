@@ -1,0 +1,21 @@
+{
+    "match_status": "CORRECT_PATH",
+    "ground_truth_sequence": [
+        "BLUE",
+        "WHITE",
+        "GREEN",
+        "RED"
+    ],
+    "student_colors": [
+        "BLUE",
+        "WHITE",
+        "GREEN",
+        "RED"
+    ],
+    "waypoints_collected": 15,
+    "final_time": 158.43200000000002,
+    "path_score": 40.0,
+    "waypoint_score": 30.0,
+    "time_score": 3.59,
+    "total_score": 73.59
+}

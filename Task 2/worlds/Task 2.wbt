@@ -1,0 +1,455 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.1911458073677863 0.09956358991227149 -0.9764990383454037 2.4814828003634313
+  position 6.797955757676191 5.735571641916765 4.112109181919962
+}
+TexturedBackgroundLight {
+}
+DEF Environment Group {
+  children [
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/ambulance.obj"
+          ]
+        }
+      ]
+      name "solid ambulance"
+      boundingObject Mesh {
+        url [
+          "../objects/ambulance.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/bada building.obj"
+          ]
+        }
+      ]
+      name "purple building"
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/barrel.obj"
+          ]
+        }
+      ]
+      name "Barrels"
+      boundingObject Mesh {
+        url [
+          "../objects/barrel.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/buildings.obj"
+          ]
+        }
+      ]
+      name "yellow buildings"
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/bush broken.obj"
+          ]
+        }
+      ]
+      name "broken bush"
+      boundingObject Mesh {
+        url [
+          "../objects/bush broken.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/bush.obj"
+          ]
+        }
+      ]
+      name "bush"
+      boundingObject Mesh {
+        url [
+          "../objects/bush.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/debries 1.obj"
+          ]
+        }
+      ]
+      name "debries"
+      boundingObject Mesh {
+        url [
+          "../objects/debries 1.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/factory.obj"
+          ]
+        }
+      ]
+      name "factory"
+      boundingObject Mesh {
+        url [
+          "../objects/factory.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/groound.obj"
+          ]
+        }
+      ]
+      name "ground"
+      boundingObject Mesh {
+        url [
+          "../objects/groound.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/gym.obj"
+          ]
+        }
+      ]
+      name "gym"
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/hole.obj"
+          ]
+        }
+      ]
+      name "waterhole"
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/hospitals.obj"
+          ]
+        }
+      ]
+      name "hospital"
+      boundingObject Mesh {
+        url [
+          "../objects/hospitals.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/carsandhouses.obj"
+          ]
+        }
+      ]
+      name "house1"
+      boundingObject Mesh {
+        url [
+          "../objects/carsandhouses.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/log.obj"
+          ]
+        }
+      ]
+      name "logs"
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/stones.obj"
+          ]
+        }
+      ]
+      name "stones"
+      boundingObject Mesh {
+        url [
+          "../objects/stones.obj"
+        ]
+      }
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/Stump_average.obj"
+          ]
+        }
+      ]
+      name "stump"
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/tree without leaves.obj"
+          ]
+        }
+      ]
+      name "dead tree"
+    }
+    Solid {
+      children [
+        CadShape {
+          url [
+            "../objects/tree.obj"
+          ]
+        }
+      ]
+      name "tree"
+    }
+    Solid {
+      translation 0.03 0 0
+      children [
+        CadShape {
+          url [
+            "../objects/Watertank platform.obj"
+          ]
+        }
+      ]
+      name "watertanks"
+      boundingObject Mesh {
+        url [
+          "../objects/Watertank platform.obj"
+        ]
+      }
+    }
+  ]
+}
+DEF Path Group {
+  children [
+    DEF Track Solid {
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "../objects/Track.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(21)"
+    }
+    DEF Zone_1 Solid {
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.34 0.89 0.53
+            roughness 1
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "../objects/zone 1.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(22)"
+      boundingObject Mesh {
+        url [
+          "../objects/zone 1.obj"
+        ]
+      }
+    }
+    DEF Zone_2 Solid {
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.64 0.11 0.17
+            roughness 1
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "../objects/zone 2.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(23)"
+      boundingObject Mesh {
+        url [
+          "../objects/zone 2.obj"
+        ]
+      }
+    }
+    DEF Zone_3 Solid {
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.101 0.3725 0.705
+            roughness 1
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "../objects/zone 3.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(24)"
+      boundingObject Mesh {
+        url [
+          "../objects/zone 3.obj"
+        ]
+      }
+    }
+    DEF Zone_4 Solid {
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Mesh {
+            url [
+              "../objects/zone 4.obj"
+            ]
+          }
+        }
+      ]
+      name "solid(25)"
+      boundingObject Mesh {
+        url [
+          "../objects/zone 4.obj"
+        ]
+      }
+    }
+  ]
+}
+DEF my-e-puck E-puck {
+  translation -0.6051795292853942 1.1049639380097025 0.019892255018096917
+  rotation -0.020928297342601047 -0.033847195702206394 0.9992078731242243 -0.046165307179586
+  controller "line_following_test"
+  camera_width 640
+  camera_height 480
+  groundSensorsSlot [
+    DEF gs0 DistanceSensor {
+      translation 0 -0.01 0
+      rotation 0 1 0 1.5708
+      name "gs0"
+      type "infra-red"
+    }
+    DEF gs1 DistanceSensor {
+      rotation 0 1 0 1.5708
+      name "gs1"
+      type "infra-red"
+    }
+    DEF gs2 DistanceSensor {
+      translation 0 0.01 0
+      rotation 0 1 0 1.5708
+      name "gs2"
+      type "infra-red"
+    }
+  ]
+}
+Solid {
+  translation 0 0 0.02
+  name "solid(26)"
+  boundingObject Plane {
+    size 3 3
+  }
+}
+Robot {
+  rotation 0 1 0 1.0472
+  children [
+    Receiver {
+      channel 1
+    }
+  ]
+  controller "supervisor_task_2"
+  supervisor TRUE
+}
+DEF waypoint Solid {
+  children [
+    Shape {
+      appearance PBRAppearance {
+        transparency 1
+      }
+      geometry Sphere {
+        radius 0.015
+      }
+    }
+  ]
+}
+Background {
+  skyColor [
+    0.15 0.45 1
+    0 0 0
+  ]
+  backUrl [
+    "../objects/nz.png"
+    ""
+  ]
+  bottomUrl [
+    "../objects/ny.png"
+  ]
+  frontUrl [
+    "../objects/pz.png"
+  ]
+  leftUrl [
+    "../objects/nx.png"
+  ]
+  rightUrl [
+    "../objects/px.png"
+  ]
+  topUrl [
+    "../objects/py.png"
+  ]
+}
+DirectionalLight {
+  direction -1 1 -1
+  intensity 4
+}

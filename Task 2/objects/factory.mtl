@@ -1,0 +1,24 @@
+# Blender 5.1.2 MTL File: 'Arena Scaled.blend'
+# www.blender.org
+
+newmtl Factory
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd Factory_albedo.jpg
+map_Ns Factory_roughness.jpg
+map_refl Factory_metallic.jpg
+
+newmtl Silo
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd Silo_albedo.jpg
+map_Ns Silo_roughness.jpg
+map_refl Silo_metallic.jpg
